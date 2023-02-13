@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Task2 {
     public static void task2() {
-        int min=0;
+        int min=150;
         int max=0;
         System.out.println("Enter number and press <Enter>:");
         Scanner scan = new Scanner(System.in);
