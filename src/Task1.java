@@ -3,7 +3,7 @@ public class Task1 {
     public static void task1() {
         System.out.println("Enter number and press <Enter>:");
         Scanner scan = new Scanner(System.in);
-        int numbers = scan.nextInt();
+        int numbers = scan.nextInt();//количество вводимы в последующем чисел
         int[] num = new int[numbers];
         for (int i = 0; i < numbers; i++) {
             num[i] = scan.nextInt();
