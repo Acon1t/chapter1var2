@@ -8,11 +8,14 @@ public class Task1 {
         for (int i = 0; i < numbers; i++) {
             num[i] = scan.nextInt();
         }
-        for (int i = 0; i < numbers; i++)
-            if (num[i] % 2 != 0)
+        for (int i = 0; i < numbers; i++) {
+            if (num[i] % 2 != 0) {
                 System.out.println("Odd number:" + num[i]);
-            else if (num[i] % 2 == 0)
+            }
+            else if (num[i] % 2 == 0) {
                 System.out.println("Even number:" + num[i]);
+            }
+        }
     }
 }
 
