@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class Task3 {
-    public static void task3() {
+public class Task4 {
+    public static void task4() {
         System.out.println("Enter number and press <Enter>:");
         Scanner scan = new Scanner(System.in);
         int numbers = scan.nextInt();
@@ -9,8 +9,8 @@ public class Task3 {
             num[i] = scan.nextInt();
         }
         for (int i = 0; i < numbers; i++) {
-            if (num[i] % 3 == 0 || num[i] % 9 == 0) {
-                System.out.println("Numbers divisible by 3 or 9:" + num[i]);
+            if ((num[i] % 5 == 0) && (num[i] % 7 == 0)) {
+                System.out.println("Numbers divisible by 5 and 7:" + num[i]);
             }
         }
     }
