@@ -5,5 +5,6 @@ public class Main {
         Task3.task3();
         Task4.task4();
         Task5.task5();
+        Task6.task6();
     }
 }
